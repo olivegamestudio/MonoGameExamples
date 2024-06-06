@@ -21,13 +21,13 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        /*using (Stream s = Application.Context.Assets.Open("TextFile1.txt"))
+        using (Stream s = Application.Context.Assets.Open("TextFile1.txt"))
         {
             using (StreamReader r = new(s))
             {
                 Debug.WriteLine(r.ReadToEnd());
             }
-        }*/
+        }
 
         base.Initialize();
     }
